@@ -1,23 +1,38 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 212) ;
     height: 100%;
   }
-
+.check{
+  height: 80%;
+}
 
 .main-navig{
     float: right;
     list-style: none;
     margin-right: 100px;
+ 
  }
  .main-navig li{
     display: inline-block;
     margin-left: 40px;
+    text-decoration: none;
  }
 
+ a:link {
+  text-decoration: none;
+  
+}
+
+a:visited {
+  text-decoration: none;
+}
+.red:visited{
+  color: red;
+}
  .form {
     position: relative;
     z-index: 1;
-    background: darkgreen;
+    background: rgb(50, 157, 168);
     max-width: 360px;
     margin: 0 auto 100px;
     padding: 45px;
@@ -31,19 +46,35 @@ body{
     width: 100%;
     border: 0;
     margin: 0 0 15px;
-    padding: 15px;
+    padding: 10px;
     box-sizing: border-box;
     font-size: 14px;
     border-radius: 25px;
+    margin-top: 15px;
   }
 
   .login{
       padding-right: 20px;
       padding-left: 10px;
-      border-left: solid black 2px;
+      border-left: solid brown 3px;
+      font-size: 150%;
   }
   .register{
       padding-left: 10px;
-      border-left: solid black 2px;
-
+      padding-right: 10px;
+      font-size: 150%;
+      border-left: solid brown  3px;
+      border-right: solid brown 3px;
+      border-radius: 0%;
   }
+
+  .button{
+    background-color: green;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+  }
+.copyright{
+  text-align: center;
+  font-size: 150%;
+  font-weight: 700;
+}
