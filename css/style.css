@@ -1,0 +1,49 @@
+body{
+    background-color: aquamarine;
+    height: 100%;
+  }
+
+
+.main-navig{
+    float: right;
+    list-style: none;
+    margin-right: 100px;
+ }
+ .main-navig li{
+    display: inline-block;
+    margin-left: 40px;
+ }
+
+ .form {
+    position: relative;
+    z-index: 1;
+    background: darkgreen;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 25px;
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 25px;
+  }
+
+  .login{
+      padding-right: 20px;
+      padding-left: 10px;
+      border-left: solid black 2px;
+  }
+  .register{
+      padding-left: 10px;
+      border-left: solid black 2px;
+
+  }
